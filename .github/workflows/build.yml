@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - "*"
-      
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +12,40 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Generate PDF
+      - name: Install gettext
+        run: sudo apt-get install -y gettext
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pipenv'
+
+      - name: Setup Pipenv
+        uses: tiagovrtr/actions-pipenv@v1
+
+      - name: Setup dependencies
+        run: pipenv sync
+
+      - name: Run generator
+        run: pipenv run python3 generate.py --input=resume.tex
+
+      - name: Generate RU PDF
         uses: hspaans/latexmk-action@v1
         with:
           format: pdf
-          filename: resume.tex
+          filename: resume.ru_RU.tex
+
+      - name: Generate EN PDF
+        uses: hspaans/latexmk-action@v1
+        with:
+          format: pdf
+          filename: resume.en_US.tex
 
       - name: Create Artifact
         uses: actions/upload-artifact@v3
         with:
           name: Resume
-          path: resume.pdf
+          path: |
+            resume.ru_RU.pdf
+            resume.en_US.pdf

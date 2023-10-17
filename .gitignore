@@ -1,6 +1,10 @@
-resume.aux
-resume.fdb_latexmk
-resume.fls
-resume.log
-resume.out
-resume.pdf
+resume.*.aux
+resume.*.fdb_latexmk
+resume.*.fls
+resume.*.log
+resume.*.out
+resume.*.pdf
+resume.*.tex
+event_log.txt
+missfont.txt
+q.log
