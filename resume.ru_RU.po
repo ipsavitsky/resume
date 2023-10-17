@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ipsavitsky 234\n"
-"PO-Revision-Date: 2023-10-17 15:11+0100\n"
+"PO-Revision-Date: 2023-10-17 20:01+0100\n"
 "Last-Translator: Ilya Savitsky <ipsavitsky234@gmail.com>\n"
 "Language-Team: Russian <kde-i18n-doc@kde.org>\n"
 "Language: ru\n"
@@ -82,6 +82,9 @@ msgstr ""
 msgid "Moscow, Russia"
 msgstr "Москва, Россия"
 
+msgid "Feb 2022 - Present"
+msgstr "Февраль 2022 - Настоящее время"
+
 msgid "Research Software Developer"
 msgstr "Техник-программист"
 
@@ -108,6 +111,9 @@ msgstr ""
 
 msgid "Lomonosov Moscow State University High School"
 msgstr "Университетская Гимназия МГУ"
+
+msgid "Sep 2021 - June 2023"
+msgstr "Сентябрь 2021 - Июнь 2023"
 
 msgid "(secondary employment)"
 msgstr "(второстепенная занятость)"
@@ -138,6 +144,9 @@ msgid ""
 msgstr ""
 "Создал локальный сервер оценки кода, что повысило эффективность оценки "
 "учащихся и способствовало созданию среды совместного обучения."
+
+msgid "June 2021 - Sep 2021"
+msgstr "Июнь 2022 - Сентябрь 2021"
 
 msgid "Summer Internship, Software developer"
 msgstr "Летняя стажировка, Инженер-программист"
@@ -199,9 +208,6 @@ msgstr ""
 msgid "Leaders of digital 2021. Third place"
 msgstr "Цифровой Прорыв 2021. Третье Место"
 
-msgid "Results page (in russian)"
-msgstr "Страница результатов"
-
 msgid "Innopolis, Russia"
 msgstr "Иннополис, Россия"
 
@@ -216,8 +222,11 @@ msgstr ""
 "задачи коммивояжера (TSP) на графике Московского метрополитена на "
 "адиабатических отжигателях IBM."
 
-msgid "Best Robotics Development (BRD 2022). Qualified in first place"
-msgstr "Best Robotics Development (BRD 2022). Квалификация на первом месте"
+msgid "Best Robotics Development (BRD 2022)."
+msgstr "Best Robotics Development (BRD 2022)."
+
+msgid "Qualified in first place"
+msgstr "Квалификация на первом месте"
 
 msgid ""
 "Secured the first-place position in the highly competitive robot challenge "
@@ -300,3 +309,6 @@ msgstr ""
 
 msgid "Publications"
 msgstr "Публикации"
+
+#~ msgid "Results page (in russian)"
+#~ msgstr "Страница результатов"
