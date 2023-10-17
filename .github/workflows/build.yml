@@ -4,13 +4,23 @@ on:
   push:
     branches:
       - "*"
-      
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      - name: Install dependencies
+        uses: VaultVulp/action-pipenv@v2.0.1
+        with:
+          command: install -d
+
+      - name: Run generator
+        uses: VaultVulp/action-pipenv@v2.0.1
+        with:
+          command: run python generate.py --input=resume.tex
 
       - name: Generate PDF
         uses: hspaans/latexmk-action@v1
@@ -22,4 +32,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Resume
-          path: resume.pdf
+          path: |
+            resume.ru_RU.pdf
+            resume.en_EN.pdf
