@@ -1,15 +1,18 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.40in,top=0.3in,right=0.75in,bottom=0.1in]{geometry} % Document margins
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian, english]{babel}
 \usepackage{fontawesome}
 \usepackage{times}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{gettext}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 
-\name{Ilya Savitsky}
-
+\name{\gettext{Ilya Savitsky}}
 
 \hypersetup{
     % colorlinks=true,
@@ -22,124 +25,124 @@
 \address{\faMapMarker{ 4 Beckdale Cl, Bicester, Oxfordshire, UK, OX26 2GT }}
 \address{\faGithub{ \href{https://github.com/ipsavitsky}{ipsavitsky} } \faLinkedin{ \href{https://www.linkedin.com/in/ilya-savitsky-448788228/}{Ilya Savitsky} } \faEnvelope{ \href{mailto:ipsavitsky234@gmail.com}{ipsavitsky234@gmail.com}} \faPhone{ \href{tel:+447907030825}{+44 7907 030825} }}
 
-\address{Dual US and Russian citizenship}
+\address{\gettext{Dual US and Russian citizenship}}
 
 \urlstyle{same}
 
 \begin{document}
 
-\begin{rSection}{Skills}
+\begin{rSection}{\gettext{Skills}}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Technologies: \ & C, C++, Python, Java, SQL, Boost, CMake, Kubernetes, REST API, Linux, Django, Spring, Docker\\
-Languages: \ & English (full working proficiency), Russian (native) \\
+\gettext{Technologies:} \ & C, C++, Python, Java, SQL, Boost, CMake, Kubernetes, REST API, Linux, Django, Spring, Docker\\
+\gettext{Languages:} \ & \gettext{English (full working proficiency), Russian (native)} \\
 
 \end{tabular}
 
 \end{rSection}
 
-\begin{rSection}{Certifications}
-{\bf SQL Course} \faLink{ \href{ https://sql-academy.org/check-certificate/65057f9e374ab00051b081c4 }{Certificate} } \hfill \faCalendar{ 16.09.2023 }
+\begin{rSection}{\gettext{Certifications}}
+{\bf \gettext{SQL Course}} \faLink{ \href{ https://sql-academy.org/check-certificate/65057f9e374ab00051b081c4 }{\gettext{Certificate}} } \hfill \faCalendar{ 16.09.2023 }
 \\{\textit{SQL Academy}}
-\\{\bf Professional technical translator qualification} \hfill \faCalendar{ 15.05.2023 }
-\\{\textit{Lomonosov Moscow State University}}
+\\{\bf \gettext{Professional technical translator qualification}} \hfill \faCalendar{ 15.05.2023 }
+\\{\textit{\gettext{Lomonosov Moscow State University}}}
 \end{rSection}
 
-\begin{rSection}{Work Experience}
+\begin{rSection}{\gettext{Work Experience}}
 
-{\bf \href{https://www.moeco.io/}{Moeco}} \hfill \faMapMarker{ Remote, San Francisco CA, USA} \; \faCalendar{ June 2022 - Present} 
-\\{\textit{ Embedded Software Developer (Contract)}} \hfill {\textit{C, CMake, FreeRTOS, ESP-IDF}}
+{\bf \href{https://www.moeco.io/}{Moeco}} \hfill \faMapMarker{ \gettext{Remote, San Francisco CA, USA}} \; \faCalendar{ \gettext{June 2022 - Present}}
+\\{\textit{ \gettext{Embedded Software Developer (Contract)}}} \hfill {\textit{C, CMake, FreeRTOS, ESP-IDF}}
 \begin{itemize}
-    \item Developed firmware in C for embedded devices on FreeRTOS using ESP-IDF framework.
-    \item Identified and resolved issues in multithread code for enhanced performance and stability.
-    \item Streamlined development process by maintaining GitHub Actions build and test pipelines.
+    \item \gettext{Developed firmware in C for embedded devices on FreeRTOS using ESP-IDF framework.}
+    \item \gettext{Identified and resolved issues in multithread code for enhanced performance and stability.}
+    \item \gettext{Streamlined development process by maintaining GitHub Actions build and test pipelines.}
 \end{itemize}
 
-{\bf \href{https://www.msu.ru/en/index.html}{Lomonosov Moscow State University} } \hfill \faMapMarker{ Moscow, Russia} \; \faCalendar{ Feb 2022 - Present} 
-\\{\textit{ Research Software Developer }} \hfill {\textit{C++, Boost, Python, CMake, Jupyter, NumPy, Bash}}
+{\bf \href{https://www.msu.ru/en/index.html}{Lomonosov Moscow State University} } \hfill \faMapMarker{\gettext{Moscow, Russia}} \; \faCalendar{ Feb 2022 - Present}
+\\{\textit{\gettext{Research Software Developer}}} \hfill {\textit{C++, Boost, Python, CMake, Jupyter, NumPy, Bash}}
 \begin{itemize}
-    \item Conducted groundbreaking research in scheduling theory in collaboration with Huawei, leading to the development of innovative solutions
-    \item Designed and implemented highly efficient greedy algorithm in modern C++ for schedule construction.
-    \item Automated testing and deployment processes by creating Python scripts, resulting in significant time savings.
+    \item \gettext{Conducted groundbreaking research in scheduling theory in collaboration with Huawei, leading to the development of innovative solutions}
+    \item \gettext{Designed and implemented highly efficient greedy algorithm in modern C++ for schedule construction.}
+    \item \gettext{Automated testing and deployment processes by creating Python scripts, resulting in significant time savings.}
 \end{itemize}
 
-{\bf \href{https://school.msu.ru/}{Lomonosov Moscow State University High School} } \hfill \faMapMarker{ Moscow, Russia} \; \faCalendar{ Sep 2021 - June 2023}
-\\{\bf (secondary employment)} \hfill {\textit{Docker, Django, Linux}}
-\\{\textit{ Tutor }}
+{\bf \href{https://school.msu.ru/}{\gettext{Lomonosov Moscow State University High School}} } \hfill \faMapMarker{\gettext{Moscow, Russia}} \; \faCalendar{ Sep 2021 - June 2023}
+\\{\bf \gettext{(secondary employment)}} \hfill {\textit{Docker, Django, Linux}}
+\\{\textit{ \gettext{Tutor} }}
 \begin{itemize}
-    \item Developed and taught extracurricular courses ``Introduction in C'' and ``Data visualization'' in informatics, providing students with a solid foundation in programming and data presentation.
-    \item Implemented a testing system project, enabling students to assess their knowledge and skills effectively.
-    \item Successfully established a local code evaluation server, enhancing the efficiency of student evaluation and fostering a collaborative learning environment.
+    \item \gettext{Developed and taught extracurricular courses ``Introduction in C'' and ``Data visualization'' in informatics, providing students with a solid foundation in programming and data presentation.}
+    \item \gettext{Implemented a testing system project, enabling students to assess their knowledge and skills effectively.}
+    \item \gettext{Successfully established a local code evaluation server, enhancing the efficiency of student evaluation and fostering a collaborative learning environment.}
 \end{itemize}
 
 {\bf \href{https://diasoft.com/}{Diasoft} } \hfill \faMapMarker{ Moscow, Russia} \; \faCalendar{ June 2021 - Sep 2021}
-\\{\textit{ Summer Internship, Software developer }} \hfill {\textit{Java, Spring, JUnit, K8s, IBM WebSphere}}
+\\{\textit{ \gettext{Summer Internship, Software developer} }} \hfill {\textit{Java, Spring, JUnit, K8s, IBM WebSphere}}
 \begin{itemize}
-    \item Developed Java microservices and implemented unit testing for optimized code quality.
-    \item Managed and monitored Kubernetes and IBM WebSphere environments to ensure smooth operation and availability.
-    \item Executed basic DevOps tasks to streamline software development and deployment process.
+    \item \gettext{Developed Java microservices and implemented unit testing for optimized code quality.}
+    \item \gettext{Managed and monitored Kubernetes and IBM WebSphere environments to ensure smooth operation and availability.}
+    \item \gettext{Executed basic DevOps tasks to streamline software development and deployment process.}
 \end{itemize}
 
 \end{rSection}
 
-\begin{rSection}{Hackathons}
-{\bf ETHGlobal Paris. Third place at Axelar bounty} \faLink{ \href{https://github.com/ipsavitsky/PaySplit}{github.com} \faLink{ \href{https://ethglobal.com/showcase/paysplit-xkqbc}{Showcase} } } \hfill \faMapMarker{ Paris, France  }
+\begin{rSection}{\gettext{Hackathons}}
+{\bf \gettext{ETHGlobal Paris. Third place at Axelar bounty}} \faLink{ \href{https://github.com/ipsavitsky/PaySplit}{github.com} \faLink{ \href{https://ethglobal.com/showcase/paysplit-xkqbc}{\gettext{Showcase}} } } \hfill \faMapMarker{ \gettext{Paris, France}  }
 \\{\textit{Ethereum, Safe, Linea, Axelar, React }}
 \begin{itemize}
-    \item Awarded the third-place bounty at ETHGlobal Paris hackathon for developing a cutting-edge smart contract leveraging the Safe\{Wallet\}, Axelar, and Linea blockchain. The smart contract enables users to seamlessly pay partial transaction costs while maintaining security and trustlessness.
-    \item Implemented a robust React-based front-end interface that simplifies the user experience, allowing for seamless interaction with the innovative payment system within the Safe\{Wallet\}.
+    \item \gettext{Awarded the third-place bounty at ETHGlobal Paris hackathon for developing a cutting-edge smart contract leveraging the Safe\{Wallet\}, Axelar, and Linea blockchain. The smart contract enables users to seamlessly pay partial transaction costs while maintaining security and trustlessness.}
+    \item \gettext{Implemented a robust React-based front-end interface that simplifies the user experience, allowing for seamless interaction with the innovative payment system within the Safe\{Wallet\}.}
 \end{itemize}
-{\bf Leaders of digital 2021. Third place} \faLink{ \href{https://github.com/ooo-team/quantum-graph}{github.com} } \faLink{ \href{https://leadersofdigital.ru/event/63011/case/958469/results}{Results page (in russian)} } \hfill \faMapMarker{ Innopolis, Russia }
+{\bf \gettext{Leaders of digital 2021. Third place}} \faLink{ \href{https://github.com/ooo-team/quantum-graph}{github.com} } \faLink{ \href{https://leadersofdigital.ru/event/63011/case/958469/results}{\gettext{Results page (in russian)}} } \hfill \faMapMarker{ \gettext{Innopolis, Russia} }
 \\{\textit{Python, quantum computing, REST API}}
 \begin{itemize}
-    \item Secured third place in the prestigious Russia's largest hackathon, ``Leaders of Digital''. Created a quantum algorithm specifically designed to solve the Traveling Salesman Problem (TSP) on the graph of Moscow Metro on IBM adiabatic annealers.
+    \item \gettext{Secured third place in the prestigious Russia's largest hackathon, ``Leaders of Digital''. Created a quantum algorithm specifically designed to solve the Traveling Salesman Problem (TSP) on the graph of Moscow Metro on IBM adiabatic annealers.}
 \end{itemize}
 
-{\bf Best Robotics Development (BRD 2022). Qualified in first place} \faLink{ \href{https://github.com/ooo-team/BRD2022}{github.com} } \hfill \faMapMarker{ Moscow, Russia }
+{\bf \gettext{Best Robotics Development (BRD 2022). Qualified in first place}} \faLink{ \href{https://github.com/ooo-team/BRD2022}{github.com} } \hfill \faMapMarker{ \gettext{Moscow, Russia} }
 \\{\textit{ C, Arduino, Python, OpenCV }}
 \begin{itemize}
-    \item Secured the first-place position in the highly competitive robot challenge at BRD 2022 by pioneering a cutting-edge computer vision navigation solution. Leveraging a powerful combination of C, Arduino, Python, and OpenCV, developed an advanced system capable of autonomously guiding robots through complex environments with exceptional precision and efficiency.
+    \item \gettext{Secured the first-place position in the highly competitive robot challenge at BRD 2022 by pioneering a cutting-edge computer vision navigation solution. Leveraging a powerful combination of C, Arduino, Python, and OpenCV, developed an advanced system capable of autonomously guiding robots through complex environments with exceptional precision and efficiency.}
 \end{itemize}
 
-{\bf Number.Zone 2022. First place} \faLink{ \href{https://github.com/kadmus-dev/3d-reconstruction}{github.com} } \faLink{ \href{https://hakatonitzone.oezdubna.ru/spring_hackathon}{Results page (in russian)} } \hfill \faMapMarker{ Online }
+{\bf \gettext{Number.Zone 2022. First place}} \faLink{ \href{https://github.com/kadmus-dev/3d-reconstruction}{github.com} } \faLink{ \href{https://hakatonitzone.oezdubna.ru/spring_hackathon}{\gettext{Results page (in russian)}} } \hfill \faMapMarker{ \gettext{Online} }
 \\{\textit{Python, StreamLit}}
 \begin{itemize}
-    \item Emerging as the first-place winner, we leveraged the power of Python and StreamLit, so that our innovative solution seamlessly analyzes and processes images, harnessing advanced artificial intelligence algorithms to recreate detailed 3D representations of iconic landmarks, paving the way for enhanced preservation and immersive virtual experiences.
+    \item \gettext{Emerging as the first-place winner, we leveraged the power of Python and StreamLit, so that our innovative solution seamlessly analyzes and processes images, harnessing advanced artificial intelligence algorithms to recreate detailed 3D representations of iconic landmarks, paving the way for enhanced preservation and immersive virtual experiences.}
 \end{itemize}
 
 \end{rSection}
 
-\begin{rSection}{Personal interests}
+\begin{rSection}{\gettext{Personal interests}}
 
 {\bf Wikipedia search tool} \faLink{ \href{https://github.com/ipsavitsky/wiki_search}{github.com} }
 \\{\textit{Python, Wikipedia API}}
 \begin{itemize}
-    \item Developed a Python-based Wikipedia search tool utilizing the Wikipedia API for efficient article retrieval and console-friendly formatting, empowering users to explore a wide range of topics and make informed decisions.
+    \item \gettext{Developed a Python-based Wikipedia search tool utilizing the Wikipedia API for efficient article retrieval and console-friendly formatting, empowering users to explore a wide range of topics and make informed decisions.}
 \end{itemize}
 
 {\bf CryptobotAPI} \faLink{ \href{https://github.com/ipsavitsky/cryptobotAPI}{github.com} }
 \\{\textit{Go, Gock, Telegram API}}
 \begin{itemize}
-    \item Developed a robust Go Cryptobot API wrapper, fortified with comprehensive test coverage, leveraging the power of Telegram API.
+    \item \gettext{Developed a robust Go Cryptobot API wrapper, fortified with comprehensive test coverage, leveraging the power of Telegram API.}
 \end{itemize}
 
 {\bf Linux Shell} \faLink{ \href{https://github.com/ipsavitsky/simple_shell}{github.com} }
 \\{\textit{C, Linux}}
 \begin{itemize}
-    \item Engineered a high-performance Linux shell using C programming language, featuring a recursive descent parser to efficiently parse bash-like syntax into an RPN ``middle interpretation''. Implemented a stack machine for executing the parsed commands, ensuring seamless and reliable execution of complex shell operations.
+    \item \gettext{Engineered a high-performance Linux shell using C programming language, featuring a recursive descent parser to efficiently parse bash-like syntax into an RPN ``middle interpretation''. Implemented a stack machine for executing the parsed commands, ensuring seamless and reliable execution of complex shell operations.}
 \end{itemize}
 
 \end{rSection}
 
-\begin{rSection}{Education}
+\begin{rSection}{\gettext{Education}}
 
-{\bf Lomonosov Moscow State University } \hfill {\em Sep 2019 - June 2023} \\
-{\bf Faculty of Computational Math and Cybernetics, Russia}
-\\{ \textit { Bachelor in applied math and informatics, Department of Computing Systems and Automation (GPA 4.4/5.0). }}
+{\bf \gettext{Lomonosov Moscow State University} } \hfill {\em Sep 2019 - June 2023} \\
+{\bf \gettext{Faculty of Computational Math and Cybernetics, Russia}}
+\\{ \textit { \gettext{Bachelor in applied math and informatics, Department of Computing Systems and Automation (GPA 4.4/5.0). }}}
 
 \end{rSection}
 
-\begin{rSection}{Publications}
+\begin{rSection}{\gettext{Publications}}
 % - Balashov V.V., Kostenko V.A., \textbf{Savitskii I.P.} Constructing multiprocessor schedules using greedy strategies and limited enumeration, Journal of Applied and Industrial Mathematics. Accepted. 2023. \\
 \begin{itemize}
     \item Vasily V. Balashov, Valery A. Kostenko, Ilya A. Fedorenko, \textbf{Ilya P. Savitsky}, Chumin Sun, Jiexing Gao, Li Zhou, Jie Sun. Hybrid Algorithm for Multiprocessor Scheduling with Makespan Minimization and Constraint on Interprocessor Data Exchange, CoDIT 2023.
