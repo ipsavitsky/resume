@@ -310,5 +310,8 @@ msgstr ""
 msgid "Publications"
 msgstr "Публикации"
 
+msgid "Link"
+msgstr "Ссылка"
+
 #~ msgid "Results page (in russian)"
 #~ msgstr "Страница результатов"

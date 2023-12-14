@@ -184,3 +184,6 @@ msgstr ""
 msgid "Publications"
 msgstr ""
 
+msgid "Link"
+msgstr ""
+
