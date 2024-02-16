@@ -43,10 +43,19 @@ msgstr ""
 msgid "Work Experience"
 msgstr ""
 
+msgid "Manchester, United Kingdom"
+msgstr ""
+
+msgid "January 2024 - Present"
+msgstr ""
+
+msgid "Software Engineer"
+msgstr ""
+
 msgid "Remote, San Francisco CA, USA"
 msgstr ""
 
-msgid "June 2022 - Present"
+msgid "June 2022 - January 2024"
 msgstr ""
 
 msgid "Embedded Software Developer (Contract)"
@@ -64,7 +73,7 @@ msgstr ""
 msgid "Moscow, Russia"
 msgstr ""
 
-msgid "Feb 2022 - Present"
+msgid "Feb 2022 - January 2024"
 msgstr ""
 
 msgid "Research Software Developer"

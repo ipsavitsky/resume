@@ -49,11 +49,20 @@ msgstr "Московский Государственный Университе
 msgid "Work Experience"
 msgstr "Опыт работы"
 
+msgid "Manchester, United Kingdom"
+msgstr "Манчестер, Великобритания"
+
+msgid "January 2024 - Present"
+msgstr "Январь 2024 г. – настоящее время"
+
+msgid "Software Engineer"
+msgstr "Инженер-программист"
+
 msgid "Remote, San Francisco CA, USA"
 msgstr "Удаленно, Сан-Франциско, Калифорния, США"
 
-msgid "June 2022 - Present"
-msgstr "Июнь 2022 - Настоящее время"
+msgid "June 2022 - January 2024"
+msgstr "Июнь 2022 - Январь 2024"
 
 msgid "Embedded Software Developer (Contract)"
 msgstr "Разработчик Встроенных Систем (Контракт)"
@@ -82,8 +91,8 @@ msgstr ""
 msgid "Moscow, Russia"
 msgstr "Москва, Россия"
 
-msgid "Feb 2022 - Present"
-msgstr "Февраль 2022 - Настоящее время"
+msgid "Feb 2022 - January 2024"
+msgstr "Февраль 2022 - Январь 2024"
 
 msgid "Research Software Developer"
 msgstr "Техник-программист"
@@ -312,6 +321,12 @@ msgstr "Публикации"
 
 msgid "Link"
 msgstr "Ссылка"
+
+#~ msgid "June 2022 - Present"
+#~ msgstr "Июнь 2022 - Настоящее время"
+
+#~ msgid "Feb 2022 - Present"
+#~ msgstr "Февраль 2022 - Настоящее время"
 
 #~ msgid "Results page (in russian)"
 #~ msgstr "Страница результатов"
