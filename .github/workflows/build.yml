@@ -28,7 +28,7 @@ jobs:
         run: pipenv sync
 
       - name: Run generator
-        run: pipenv run python3 generate.py --input=resume.tex
+        run: pipenv run generate
 
       - name: Generate RU PDF
         uses: hspaans/latexmk-action@v1

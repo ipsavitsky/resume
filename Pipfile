@@ -12,3 +12,6 @@ tz = "*"
 
 [requires]
 python_version = "3.11"
+
+[scripts]
+generate = "python scripts/generate.py --input resume.tex"
