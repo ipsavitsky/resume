@@ -46,7 +46,7 @@ msgstr ""
 msgid "Manchester, United Kingdom"
 msgstr ""
 
-msgid "January 2024 - Present"
+msgid "January 2024 --- Present"
 msgstr ""
 
 msgid "Software Engineer"
@@ -55,7 +55,7 @@ msgstr ""
 msgid "Remote, San Francisco CA, USA"
 msgstr ""
 
-msgid "June 2022 - January 2024"
+msgid "June 2022 --- January 2024"
 msgstr ""
 
 msgid "Embedded Software Developer (Contract)"
@@ -73,7 +73,7 @@ msgstr ""
 msgid "Moscow, Russia"
 msgstr ""
 
-msgid "Feb 2022 - January 2024"
+msgid "Feb 2022 --- January 2024"
 msgstr ""
 
 msgid "Research Software Developer"
@@ -91,7 +91,7 @@ msgstr ""
 msgid "Lomonosov Moscow State University High School"
 msgstr ""
 
-msgid "Sep 2021 - June 2023"
+msgid "Sep 2021 --- June 2023"
 msgstr ""
 
 msgid "(secondary employment)"
@@ -109,7 +109,7 @@ msgstr ""
 msgid "Successfully established a local code evaluation server, enhancing the efficiency of student evaluation and fostering a collaborative learning environment."
 msgstr ""
 
-msgid "June 2021 - Sep 2021"
+msgid "June 2021 --- Sep 2021"
 msgstr ""
 
 msgid "Summer Internship, Software developer"
@@ -127,10 +127,16 @@ msgstr ""
 msgid "Hackathons"
 msgstr ""
 
-msgid "ETHGlobal Paris. Third place at Axelar bounty"
+msgid "ETHGlobal Brussels. Hyperlane ``Best Infrastructure''  Bounty"
 msgstr ""
 
 msgid "Showcase"
+msgstr ""
+
+msgid "Brussels, Belgium"
+msgstr ""
+
+msgid "ETHGlobal Paris. Third place at Axelar bounty"
 msgstr ""
 
 msgid "Paris, France"

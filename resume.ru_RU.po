@@ -52,8 +52,9 @@ msgstr "Опыт работы"
 msgid "Manchester, United Kingdom"
 msgstr "Манчестер, Великобритания"
 
-msgid "January 2024 - Present"
-msgstr "Январь 2024 г. – настоящее время"
+#, fuzzy
+msgid "January 2024 --- Present"
+msgstr "Январь 2024 г. –-- настоящее время"
 
 msgid "Software Engineer"
 msgstr "Инженер-программист"
@@ -61,8 +62,9 @@ msgstr "Инженер-программист"
 msgid "Remote, San Francisco CA, USA"
 msgstr "Удаленно, Сан-Франциско, Калифорния, США"
 
-msgid "June 2022 - January 2024"
-msgstr "Июнь 2022 - Январь 2024"
+#, fuzzy
+msgid "June 2022 --- January 2024"
+msgstr "Июнь 2022 --- Январь 2024"
 
 msgid "Embedded Software Developer (Contract)"
 msgstr "Разработчик Встроенных Систем (Контракт)"
@@ -91,8 +93,9 @@ msgstr ""
 msgid "Moscow, Russia"
 msgstr "Москва, Россия"
 
-msgid "Feb 2022 - January 2024"
-msgstr "Февраль 2022 - Январь 2024"
+#, fuzzy
+msgid "Feb 2022 --- January 2024"
+msgstr "Февраль 2022 --- Январь 2024"
 
 msgid "Research Software Developer"
 msgstr "Техник-программист"
@@ -121,8 +124,9 @@ msgstr ""
 msgid "Lomonosov Moscow State University High School"
 msgstr "Университетская Гимназия МГУ"
 
-msgid "Sep 2021 - June 2023"
-msgstr "Сентябрь 2021 - Июнь 2023"
+#, fuzzy
+msgid "Sep 2021 --- June 2023"
+msgstr "Сентябрь 2021 --- Июнь 2023"
 
 msgid "(secondary employment)"
 msgstr "(второстепенная занятость)"
@@ -154,8 +158,9 @@ msgstr ""
 "Создал локальный сервер оценки кода, что повысило эффективность оценки "
 "учащихся и способствовало созданию среды совместного обучения."
 
-msgid "June 2021 - Sep 2021"
-msgstr "Июнь 2022 - Сентябрь 2021"
+#, fuzzy
+msgid "June 2021 --- Sep 2021"
+msgstr "Июнь 2022 --- Сентябрь 2021"
 
 msgid "Summer Internship, Software developer"
 msgstr "Летняя стажировка, Инженер-программист"
@@ -184,11 +189,17 @@ msgstr ""
 msgid "Hackathons"
 msgstr "Хакатоны"
 
-msgid "ETHGlobal Paris. Third place at Axelar bounty"
-msgstr "ETHGlobal Paris. Третье место в призе Axelar"
+msgid "ETHGlobal Brussels. Hyperlane ``Best Infrastructure''  Bounty"
+msgstr "ETHGlobal Brussels. Награда Hyperlane ``Лучшая инфраструктура''"
 
 msgid "Showcase"
 msgstr "Витрина"
+
+msgid "Brussels, Belgium"
+msgstr "Брюссель, Бельгия"
+
+msgid "ETHGlobal Paris. Third place at Axelar bounty"
+msgstr "ETHGlobal Paris. Третье место в призе Axelar"
 
 msgid "Paris, France"
 msgstr "Париж, Франция"

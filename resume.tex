@@ -1,6 +1,6 @@
-\documentclass{resume} % Use the custom resume.cls style
+\documentclass{resume}
 
-\usepackage[left=0.40in,top=0.3in,right=0.75in,bottom=0.1in]{geometry} % Document margins
+\usepackage[left=0.40in,top=0.3in,right=0.75in,bottom=0.1in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T2A]{fontenc}
 \usepackage[russian, english]{babel}
@@ -36,9 +36,9 @@
 
 \begin{rSection}{\gettext{Skills}}
 
-\begin{tabularx}{\textwidth}{ r X  }
+\begin{tabularx}{\textwidth}{ r X }
 
-\textbf{\gettext{Technologies:}} & C, C++, Python, Java, SQL, Boost, CMake, Kubernetes, REST API, Linux, Django, Spring, Docker \\
+\textbf{\gettext{Technologies:}} & C, C++, Python, SQL, Boost, CMake, Kubernetes, Docker, Terraform, AWS \\
 \textbf{\gettext{Languages:}} & \gettext{English (full working proficiency), Russian (native)} \\
 
 \end{tabularx}
@@ -54,12 +54,12 @@
 
 \begin{rSection}{\gettext{Work Experience}}
 
-{\bf \href{https://www.codethink.co.uk/}{Codethink}} \hfill \faMapMarker{ \gettext{Manchester, United Kingdom}} \; \faCalendar{ \gettext{January 2024 - Present}}
-\\{\textit{ \gettext{Software Engineer}}} \hfill {\textit{}}
-% \begin{itemize}
-% \end{itemize}
+{\bf \href{https://www.codethink.co.uk/}{Codethink}} \hfill \faMapMarker{ \gettext{Manchester, United Kingdom}} \; \faCalendar{ \gettext{January 2024 --- Present}}
+\\{\textit{ \gettext{Software Engineer}}} \hfill {\textit{Terraform, Kubernetes, Rust, Go, GitLab CI}}
+%% \begin{itemize}
+%% \end{itemize}
 
-{\bf \href{https://www.moeco.io/}{Moeco}} \hfill \faMapMarker{ \gettext{Remote, San Francisco CA, USA}} \; \faCalendar{ \gettext{June 2022 - January 2024}}
+{\bf \href{https://www.moeco.io/}{Moeco}} \hfill \faMapMarker{ \gettext{Remote, San Francisco CA, USA}} \; \faCalendar{ \gettext{June 2022 --- January 2024}}
 \\{\textit{ \gettext{Embedded Software Developer (Contract)}}} \hfill {\textit{C, CMake, FreeRTOS, ESP-IDF}}
 \begin{itemize}
     \item \gettext{Developed firmware in C for embedded devices on FreeRTOS using ESP-IDF framework.}
@@ -67,7 +67,7 @@
     \item \gettext{Streamlined development process by maintaining GitHub Actions build and test pipelines.}
 \end{itemize}
 
-{\bf \href{https://www.msu.ru/en/index.html}{\gettext{Lomonosov Moscow State University}} } \hfill \faMapMarker{ \gettext{Moscow, Russia} } \; \faCalendar{ \gettext{Feb 2022 - January 2024}}
+{\bf \href{https://www.msu.ru/en/index.html}{\gettext{Lomonosov Moscow State University}} } \hfill \faMapMarker{ \gettext{Moscow, Russia} } \; \faCalendar{ \gettext{Feb 2022 --- January 2024}}
 \\{\textit{\gettext{Research Software Developer}}} \hfill {\textit{C++, Boost, Python, CMake, Jupyter, NumPy, Bash}}
 \begin{itemize}
     \item \gettext{Conducted groundbreaking research in scheduling theory in collaboration with Huawei, leading to the development of innovative solutions}
@@ -75,7 +75,7 @@
     \item \gettext{Automated testing and deployment processes by creating Python scripts, resulting in significant time savings.}
 \end{itemize}
 
-{\bf \href{https://school.msu.ru/}{\gettext{Lomonosov Moscow State University High School}} } \hfill \faMapMarker{ \gettext{Moscow, Russia} } \; \faCalendar{ \gettext{Sep 2021 - June 2023}}
+{\bf \href{https://school.msu.ru/}{\gettext{Lomonosov Moscow State University High School}} } \hfill \faMapMarker{ \gettext{Moscow, Russia} } \; \faCalendar{ \gettext{Sep 2021 --- June 2023}}
 \\{\bf \gettext{(secondary employment)}} \hfill {\textit{Docker, Django, Linux}}
 \\{\textit{ \gettext{Tutor} }}
 \begin{itemize}
@@ -84,7 +84,7 @@
     \item \gettext{Successfully established a local code evaluation server, enhancing the efficiency of student evaluation and fostering a collaborative learning environment.}
 \end{itemize}
 
-{\bf \href{https://diasoft.com/}{Diasoft} } \hfill \faMapMarker{ \gettext{Moscow, Russia} } \; \faCalendar{ \gettext{June 2021 - Sep 2021}}
+{\bf \href{https://diasoft.com/}{Diasoft} } \hfill \faMapMarker{ \gettext{Moscow, Russia} } \; \faCalendar{ \gettext{June 2021 --- Sep 2021}}
 \\{\textit{ \gettext{Summer Internship, Software developer} }} \hfill {\textit{Java, Spring, JUnit, K8s, IBM WebSphere}}
 \begin{itemize}
     \item \gettext{Developed Java microservices and implemented unit testing for optimized code quality.}
@@ -96,31 +96,36 @@
 
 \begin{rSection}{\gettext{Hackathons}}
 
-{\bf \gettext{ETHGlobal Paris. Third place at Axelar bounty}} \faLink{ \href{https://github.com/ipsavitsky/PaySplit}{github.com} \faLink{ \href{https://ethglobal.com/showcase/paysplit-xkqbc}{\gettext{Showcase}} } } \hfill \faMapMarker{ \gettext{Paris, France}  }
-\\{\textit{Ethereum, Safe, Linea, Axelar, React }}
-\begin{itemize}
-    \item \gettext{Awarded the third-place bounty at ETHGlobal Paris hackathon for developing a cutting-edge smart contract leveraging the Safe\{Wallet\}, Axelar, and Linea blockchain. The smart contract enables users to seamlessly pay partial transaction costs while maintaining security and trustlessness.}
-    \item \gettext{Implemented a robust React-based front-end interface that simplifies the user experience, allowing for seamless interaction with the innovative payment system within the Safe\{Wallet\}.}
-\end{itemize}
+{\bf \gettext{ETHGlobal Brussels. Hyperlane ``Best Infrastructure''  Bounty}} \faLink{ \href{https://github.com/ipsavitsky/DeployAlchemist}{github.com} \faLink{ \href{https://ethglobal.com/showcase/deployalchemist-8cdm7}{\gettext{Showcase}} } } \hfill \faMapMarker{ \gettext{Brussels, Belgium}}
+\\{\textit{Terraform, Hyperlane}}
+%% \begin{itemize}
+%% \end{itemize}
+
+{\bf \gettext{ETHGlobal Paris. Third place at Axelar bounty}} \faLink{ \href{https://github.com/ipsavitsky/PaySplit}{github.com} \faLink{ \href{https://ethglobal.com/showcase/paysplit-xkqbc}{\gettext{Showcase}} } } \hfill \faMapMarker{ \gettext{Paris, France}}
+\\{\textit{Ethereum, Safe, Linea, Axelar, React}}
+%% \begin{itemize}
+%%     \item \gettext{Awarded the third-place bounty at ETHGlobal Paris hackathon for developing a cutting-edge smart contract leveraging the Safe\{Wallet\}, Axelar, and Linea blockchain. The smart contract enables users to seamlessly pay partial transaction costs while maintaining security and trustlessness.}
+%%     \item \gettext{Implemented a robust React-based front-end interface that simplifies the user experience, allowing for seamless interaction with the innovative payment system within the Safe\{Wallet\}.}
+%% \end{itemize}
 
 {\bf \gettext{Leaders of digital 2021. Third place}} \faLink{ \href{https://github.com/ooo-team/quantum-graph}{github.com} } \hfill \faMapMarker{ \gettext{Innopolis, Russia} }
 \\{\textit{Python, quantum computing, REST API}}
-\begin{itemize}
-    \item \gettext{Secured third place in the prestigious Russia's largest hackathon, ``Leaders of Digital''. Created a quantum algorithm specifically designed to solve the Traveling Salesman Problem (TSP) on the graph of Moscow Metro on IBM adiabatic annealers.}
-\end{itemize}
+%% \begin{itemize}
+%%     \item \gettext{Secured third place in the prestigious Russia's largest hackathon, ``Leaders of Digital''. Created a quantum algorithm specifically designed to solve the Traveling Salesman Problem (TSP) on the graph of Moscow Metro on IBM adiabatic annealers.}
+%% \end{itemize}
 
 {\bf \gettext{Best Robotics Development (BRD 2022).}} \faLink{ \href{https://github.com/ooo-team/BRD2022}{github.com} } \hfill \faMapMarker{ \gettext{Moscow, Russia} }
 \\ {\bf \gettext{Qualified in first place}}
 \\{\textit{ C, Arduino, Python, OpenCV }}
-\begin{itemize}
-    \item \gettext{Secured the first-place position in the highly competitive robot challenge at BRD 2022 by pioneering a cutting-edge computer vision navigation solution. Leveraging a powerful combination of C, Arduino, Python, and OpenCV, developed an advanced system capable of autonomously guiding robots through complex environments with exceptional precision and efficiency.}
-\end{itemize}
+%% \begin{itemize}
+%%     \item \gettext{Secured the first-place position in the highly competitive robot challenge at BRD 2022 by pioneering a cutting-edge computer vision navigation solution. Leveraging a powerful combination of C, Arduino, Python, and OpenCV, developed an advanced system capable of autonomously guiding robots through complex environments with exceptional precision and efficiency.}
+%% \end{itemize}
 
 {\bf \gettext{Number.Zone 2022. First place}} \faLink{ \href{https://github.com/kadmus-dev/3d-reconstruction}{github.com} } \hfill \faMapMarker{ \gettext{Online} }
 \\{\textit{Python, StreamLit}}
-\begin{itemize}
-    \item \gettext{Emerging as the first-place winner, we leveraged the power of Python and StreamLit, so that our innovative solution seamlessly analyzes and processes images, harnessing advanced artificial intelligence algorithms to recreate detailed 3D representations of iconic landmarks, paving the way for enhanced preservation and immersive virtual experiences.}
-\end{itemize}
+%% \begin{itemize}
+%%     \item \gettext{Emerging as the first-place winner, we leveraged the power of Python and StreamLit, so that our innovative solution seamlessly analyzes and processes images, harnessing advanced artificial intelligence algorithms to recreate detailed 3D representations of iconic landmarks, paving the way for enhanced preservation and immersive virtual experiences.}
+%% \end{itemize}
 
 \end{rSection}
 
@@ -148,8 +153,8 @@
 
 \begin{rSection}{\gettext{Education}}
 
-{\bf \gettext{Lomonosov Moscow State University} } \hfill {\em Sep 2019 - June 2023} \\
-{\bf \gettext{Faculty of Computational Math and Cybernetics, Russia}}
+{\bf \gettext{Lomonosov Moscow State University} } \hfill {\em Sep 2019 --- June 2023}
+\\{\bf \gettext{Faculty of Computational Math and Cybernetics, Russia}}
 \\{ \textit { \gettext{Bachelor in applied math and informatics, Department of Computing Systems and Automation (GPA 4.4/5.0). }}}
 
 \end{rSection}
@@ -157,7 +162,7 @@
 \begin{rSection}{\gettext{Publications}}
 % - Balashov V.V., Kostenko V.A., \textbf{Savitskii I.P.} Constructing multiprocessor schedules using greedy strategies and limited enumeration, Journal of Applied and Industrial Mathematics. Accepted. 2023. \\
 \begin{itemize}
-\item Vasily V. Balashov, Valery A. Kostenko, Ilya A. Fedorenko, \textbf{Ilya P. Savitsky}, Chumin Sun, Jiexing Gao, Li Zhou, Jie Sun. Hybrid Algorithm for Multiprocessor Scheduling with Makespan Minimization and Constraint on Interprocessor Data Exchange, CoDIT 2023. \faLink{ \href{https://ieeexplore.ieee.org/document/10284178}{\gettext{Link}} }
+\item Vasily V. Balashov, Valery A. Kostenko, Ilya A. Fedorenko, \textbf{Ilya P. Savitsky}, Chumin Sun, Jiexing Gao, Li Zhou, Jie Sun. Hybrid Algorithm for Multiprocessor Scheduling with Makespan Minimization and Constraint on Interprocessor Data Exchange, CoDIT 2023. \; \faLink{ \href{https://ieeexplore.ieee.org/document/10284178}{\gettext{Link}} }
 \end{itemize}
 \end{rSection}
 
