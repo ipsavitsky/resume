@@ -59,6 +59,26 @@ msgstr "Январь 2024 г. –-- настоящее время"
 msgid "Software Engineer"
 msgstr "Инженер-программист"
 
+msgid ""
+"Developed a scalable high performance service used to mirror git objects, "
+"including LFS."
+msgstr ""
+"Разработан масштабируемый высокопроизводительный сервис, используемый для "
+"зеркалирования объектов git, включая LFS."
+
+msgid ""
+"Supported development of Terraform/OpenTofu providers for internal usage."
+msgstr ""
+"Поддерживалась разработка поставщиков Terraform/OpenTofu для внутреннего "
+"использования."
+
+msgid ""
+"Helped maintain a complex infrastructure product managed with Terraform/"
+"OpenTofu."
+msgstr ""
+"Помогал поддерживать сложный инфраструктурный продукт, управляемый с помощью "
+"Terraform/OpenTofu."
+
 msgid "Remote, San Francisco CA, USA"
 msgstr "Удаленно, Сан-Франциско, Калифорния, США"
 

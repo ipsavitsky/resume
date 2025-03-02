@@ -52,6 +52,15 @@ msgstr ""
 msgid "Software Engineer"
 msgstr ""
 
+msgid "Developed a scalable high performance service used to mirror git objects, including LFS."
+msgstr ""
+
+msgid "Supported development of Terraform/OpenTofu providers for internal usage."
+msgstr ""
+
+msgid "Helped maintain a complex infrastructure product managed with Terraform/OpenTofu."
+msgstr ""
+
 msgid "Remote, San Francisco CA, USA"
 msgstr ""
 

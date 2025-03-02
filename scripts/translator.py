@@ -3,15 +3,11 @@
 
 import datetime
 import icu
-import locale
 import os
 import re
-import shutil
 import subprocess
 import sys
 import tex_math
-import tzlocal
-import unittest
 
 RE_PO_FILE = re.compile(r'.*\.(.*)\.po$')
 DEFAULT_PLURAL = 'nplurals=2; plural=n != 1'
@@ -101,7 +97,7 @@ class Document:
 				for n in range(nargs):
 					try:
 						end = _find_matching_closing(start)
-					except Exception as e:
+					except Exception:
 						raise Exception(
 							'Could not find end for tag that starts at line '+
 							'{line} ({text})'.format(
@@ -378,7 +374,7 @@ def convert_plurals(description, n, variants):
 		plural = tex_math.Parser(plural)
 		plural.override_identifier('n', n)
 		plural = tex_math.Generator(plural.parse()).generate()
-	except Exception as e:
+	except Exception:
 		raise Exception('Plurals definition must be formed as "nplurals: <n>; plural=<rule>"')
 
 	if len(variants) != nplurals:

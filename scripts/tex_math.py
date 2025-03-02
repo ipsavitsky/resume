@@ -61,7 +61,7 @@ class Parser:
             stack.append(self)
 
         def __eq__(self, other):
-            return type(self) == type(other) and self.operation == other.operation
+            return type(self) is type(other) and self.operation == other.operation
 
         def __str__(self):
             return 'Operator("{}")'.format(self.operation)
