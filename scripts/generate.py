@@ -3,13 +3,7 @@
 
 import argparse
 import logging
-import os
-import os.path
-import re
-import sqlite3
-import subprocess
 import sys
-import time
 import translator
 
 VERSION='0.1'
