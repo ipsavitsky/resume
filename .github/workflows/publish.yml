@@ -15,20 +15,11 @@ jobs:
       - name: Install gettext
         run: sudo apt-get install -y gettext
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-          cache: 'pipenv'
-
-      - name: Setup Pipenv
-        uses: tiagovrtr/actions-pipenv@v1
-
-      - name: Setup dependencies
-        run: pipenv sync
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v5
 
       - name: Run generator
-        run: pipenv run generate
+        run: uv run scripts/generate.py --input resume.tex
 
       - name: Generate RU PDF
         uses: hspaans/latexmk-action@v1
